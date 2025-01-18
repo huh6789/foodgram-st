@@ -22,7 +22,6 @@ python manage.py load_ingredients data/ingredients.json
 Доступ к проекту:
 
 Фронтенд доступен по адресу: http://localhost
-Админ-панель Django доступна по адресу: http://localhost/admin
 
 Тесты проводились в postmen по пути:
 postman_collection/foodgram.postman_collection.json
