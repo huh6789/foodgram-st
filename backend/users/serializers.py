@@ -2,7 +2,7 @@ from rest_framework import serializers
 from django.contrib.auth import authenticate
 
 from .models import User, Subscription
-from .fields import Base64ImageField
+from .addimage import Base64ImageField
 
 
 class EmailAuthTokenSerializer(serializers.Serializer):
