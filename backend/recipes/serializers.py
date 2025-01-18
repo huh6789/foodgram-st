@@ -9,7 +9,7 @@ from .models import (
     ShoppingCart,
 )
 from users.serializers import UserSerializer
-from .fields import Base64ImageField
+from .addimage import Base64ImageField
 
 
 class IngredientSerializer(serializers.ModelSerializer):
